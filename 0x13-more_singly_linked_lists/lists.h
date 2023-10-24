@@ -2,11 +2,14 @@
 #define LIST_H
 
 /**
- * single liked list
+ * struct list - singly linked list
  * define name for struct
- * @n is int
- * @next is struct list
+ *
+ * @n: is int
+ * @next: is struct list
  * name for struct is listint_t
+ *
+ * Description: singly linked list
  */
 
 
