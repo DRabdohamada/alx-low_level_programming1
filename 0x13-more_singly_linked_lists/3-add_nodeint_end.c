@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 
+
 /**
  * add_nodeint_end - add at end
  *
@@ -25,6 +26,10 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	last = *head;
 
 	new3 = malloc(sizeof(listint_t));
+
+	if (new3 == NULL)
+		return (NULL);
+
 
 	new3->n = n;
 	new3->next = NULL;
